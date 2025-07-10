@@ -1,0 +1,7 @@
+---
+- name: Test connection my server
+  become: yes
+  hosts: all
+
+  roles:
+    - test-role
